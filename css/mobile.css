@@ -1,0 +1,46 @@
+/* Mobile-first fluid layout: common presentation and screens under 600px. */
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f7f8; color: #142b3b; font-family: Arial, Helvetica, sans-serif; line-height: 1.65; }
+a { color: #075b60; text-underline-offset: 4px; overflow-wrap: anywhere; }
+a:hover { color: #142b3b; }
+.wrap { width: 90%; max-width: 1180px; margin: 0 auto; }
+header { background: #142b3b; color: white; padding: 24px 0; }
+.brand { color: white; text-decoration: none; font-size: 26px; font-weight: bold; }
+.brand span { font-size: 12px; letter-spacing: 2px; color: #9ce3db; }
+nav ul { padding: 0; margin: 18px 0 0; list-style: none; }
+nav li { display: inline-block; margin: 0 15px 8px 0; }
+nav a { color: white; text-decoration: none; padding-bottom: 5px; }
+nav a:hover, nav a[aria-current="page"] { color: #9ce3db; border-bottom: 2px solid #9ce3db; }
+main { padding-bottom: 64px; }
+h1,h2,h3 { line-height: 1.18; }
+h1 { font-size: 42px; letter-spacing: -2px; margin: 12px 0 24px; }
+h2 { font-size: 28px; }
+h3 { font-size: 22px; }
+.hero { padding: 55px 0; }
+.hero h1 span { color: #075b60; }
+.eyebrow,.number { font-size: 12px; font-weight: bold; letter-spacing: 2px; color: #075b60; }
+.lead { font-size: 19px; max-width: 650px; }
+.button,button { display: inline-block; background: #075b60; color: white; border: 0; border-radius: 6px; padding: 14px 22px; font: inherit; font-weight: bold; text-decoration: none; cursor: pointer; }
+.button:hover,button:hover { background: #142b3b; color: white; }
+.text-link { display: inline-block; margin: 20px 0 0 18px; }
+.card { background: white; border: 1px solid #d4dfe3; border-radius: 12px; padding: 26px; margin-bottom: 20px; }
+/* Straight linear gradient decorates the heading; angled gradient decorates the video section. */
+.page-heading { background: linear-gradient(to right, #dff1ed, #f5f7f8); padding: 38px 24px; margin: 32px 0; border-radius: 12px; }
+.video-section { background: linear-gradient(135deg, #142b3b, #075b60); color: white; padding: 30px; border-radius: 12px; margin-top: 32px; }
+.video-section .note { color: white; }
+figure { margin: 0 0 28px; }
+img,video { display: block; width: 100%; height: auto; border-radius: 10px; }
+video { max-width: 760px; }
+figcaption,.note,.help { font-size: 14px; color: #465a66; }
+.skills { padding-left: 22px; }
+.notice { border-left: 4px solid #075b60; padding-left: 18px; }
+label { display: block; margin-top: 20px; font-weight: bold; }
+input,textarea { width: 100%; margin-top: 6px; padding: 12px; border: 1px solid #60747e; border-radius: 6px; background: white; color: #142b3b; font: inherit; }
+textarea { resize: vertical; }
+form button { margin-top: 24px; }
+aside { margin-top: 32px; }
+footer { background: #142b3b; color: white; padding: 28px 0; font-size: 14px; }
+footer a,footer .note { color: #9ce3db; }
+:focus-visible { outline: 3px solid #b64e16; outline-offset: 4px; }
+.skip { position: absolute; top: -100px; left: 10px; background: white; padding: 12px; z-index: 10; }
+.skip:focus { top: 10px; }
