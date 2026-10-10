@@ -1,8 +1,5 @@
 # Zuhaib Kashif — Portfolio learning draft
 
-INFR3120 Assignment 1, Fall 2026. Due October 9, 2026 at 11:59 p.m., per supplied PDF. The PDF totals 60 marks and requires GitHub Pages; Canvas's displayed category weights differ. Follow the instructor's current directions.
-
-
 
 ## Files
 - `index.html`: home, navigation and focus areas.
@@ -15,14 +12,6 @@ INFR3120 Assignment 1, Fall 2026. Due October 9, 2026 at 11:59 p.m., per supplie
 - `assets/`: original generated SVG favicon and clearly labelled media placeholders.
 - `PRESENTATION-GUIDE.md`: 18-minute explanation plan with demo cues.
 - `TESTING.md`: actual local results and external checks still required.
-
-## Required personal changes
-1. Replace `your-email@example.com` everywhere with your actual contact email, including the contact form action. Do not publish personal information you do not want public.
-2. Put your own photo in `assets/`, update the About image path and alt text, and remove the placeholder caption.
-3. Record a 45–60 second introduction; save it as `assets/introduction.mp4`. The video markup already has `controls` and `poster`. Replace the poster text with a finished poster and add a transcript (and preferably captions). Remove the missing-video note only after playback works.
-4. Confirm the five project descriptions, remove the draft notice, and use only projects you actually completed. Add real screenshots or links if available.
-5. Complete the external validation checks and retain evidence.
-6. Publish your own public repository with real incremental commits. No repository, commit history or live URL is included or claimed in this draft.
 
 ## Layout and viewport decisions
 The base layout is fluid: `.wrap` uses 90% width with an 1180px maximum. Images, video and fields scale to available width. Mobile is below 600px, with a single reading column. Tablet begins at 600px and uses two-column CSS Grid where space permits. Laptop begins at 1024px with a three-card Home layout and two-column contact layout. The link `media` conditions and matching `@media` rules keep the separate stylesheet roles explicit. These thresholds provide readable space for content rather than targeting a particular phone brand. No Flexbox is used. Grid and inline-block provide layout; verify Grid is permitted by your instructor.
